@@ -1,0 +1,33 @@
+ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+
+nav{
+    background-color:var(--primary-color);
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+
+body{
+
+    background-color:var(--secondary-color);
+}
+
+h1{
+    text-align: center;
+}
+/* 
+:root{
+    --primary-color:rgb(0,255,255);
+    --secondary-color:rgb(149,227,227); */
+
+    :root{
+        --primary-color:rgb(9, 70, 39);
+        --secondary-color:rgb(121, 172, 113);
+}
